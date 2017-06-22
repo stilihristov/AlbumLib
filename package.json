@@ -1,16 +1,20 @@
 {
-  "name": "express-api",
-  "version": "0.5.0",
-  "description": "Express based web app for music album storage",
+  "name": "ajax-api-jquery-project",
+  "version": "1.1.0",
+  "description": "A project in jquery, express and ajax.",
   "main": "jquery.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "Stiliyan Hristov & Iordan Ivanov",
+  "author": "Stilyan Hristov & Iordan Ivanov",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.15.0",
-    "express": "^4.13.4"
+    "express": "^4.13.4",
+    "gridfs-stream": "^1.1.1",
+    "mongod": "^2.0.0",
+    "mongodb": "^2.2.29",
+    "mongoose": "^4.10.7"
   }
 }

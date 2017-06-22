@@ -1,21 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>AlbumLib</title>
+    <title>Album Library</title>
 </head>
 <body>
-    <button id="get-button">READ/GET Albums</button>
-    <form id="create-form">
-        <input type="text" id="create-input">
-        <button>Create/POST</button>
+    <button id="get-albums-button">GET albums</button>
+
+    <form id="album-input">
+        <input type="text" placeholder="Album name" id="album-input-name">
+        <input type="text" placeholder="Album genre" id="album-input-genre">
+        <input type="text" placeholder="Album author" id="album-input-author">
+        <input type="number"  placeholder="Album year" id="album-input-year">
+        <input type="file" placeholder="Album Cover" id="album-input-image">
+        <button>Create album</button>
     </form>
+
     <hr>
     <table>
         <thead>
             <tr>
                 <th>ID</th>
                 <th>Name</th>
-                <th>Actions</th>
+				<th>Genre</th>
+				<th>Author</th>
+				<th>Year</th>
+				<th>Actions</th>
             </tr>
         </thead>
         <tbody></tbody>
